@@ -118,7 +118,6 @@ class Dvnode:
             self.process_message(data)
 
     def tell_all(self, msg):
-        print(self.neighbors)
         for neighbors in self.neighbors:
             if int(neighbors) != int(self.port):
                 self.say(f'Message sent from Node {self.port} to Node {neighbors}')
