@@ -103,7 +103,7 @@ class Srnode:
             try:
                 del self.buffer[seq]
             except KeyError:
-                self.print_line(f'[Summary] {self.dropped}/{self.acc} ACKs dropped, loss rate = {self.dropped/self.acc}')
+                self.print_line(f'[Summary] {self.dropped}/{self.acc} ACKs dropped, loss rate ={round((self.dropped / self.acc),3)}')
                 os._exit(1)
             if seq != self.base:
                 pass
@@ -116,7 +116,7 @@ class Srnode:
             for i in range(0, seq):
                 msg += self.rcvBuffer[i]
             self.print_line(f'Message received: {msg}')
-            self.print_line(f'[Summary] {self.dropped}/{self.acc} packets dropped, loss rate = {self.dropped / self.acc}')
+            self.print_line(f'[Summary] {self.dropped}/{self.acc} packets dropped, loss rate = {round((self.dropped / self.acc),3)}')
 
         else:
             if seq in self.rcvBuffer.keys():
