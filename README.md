@@ -1,6 +1,6 @@
-# Programming Assignment 2 - William Liang (jl5825)
+# Selective-Repeat-and-Distance-Vector-Protocol
 
-This assignment implements the Selective Repeat protocol and Distance Vector protocol using Python3.
+This program implements the Selective Repeat protocol and Distance Vector protocol using Python3.
 The implement includes three parts: srnode.py, dvnode.py, and cnnode.py. 
 
 ## 💫 Quick Start
@@ -108,8 +108,3 @@ ACK packets. In another word, the link cost is not bidirectional. However, this 
 is still arguably consistent with the description of part 4, specifically with regard to Figure 4
 where the link costs are shown above links with clear directions marked.
 
-
-
-<p align="center">
-    ~ Thank You ~
-</p>
