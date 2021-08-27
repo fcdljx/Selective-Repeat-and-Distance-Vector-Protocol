@@ -1,5 +1,3 @@
-
-
 from dvnode import *
 from collections import defaultdict, OrderedDict
 import socket
