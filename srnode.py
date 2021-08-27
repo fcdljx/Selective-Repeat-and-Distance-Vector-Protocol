@@ -1,5 +1,3 @@
-
-
 from collections import OrderedDict
 import socket
 import threading
