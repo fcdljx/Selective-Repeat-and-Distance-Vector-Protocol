@@ -1,4 +1,4 @@
-# Selective-Repeat-and-Distance-Vector-Protocol
+# Selective Repeat and Distance Vector Protocol
 
 This program implements the Selective Repeat protocol and Distance Vector protocol using Python3.
 The implement includes three parts: srnode.py, dvnode.py, and cnnode.py. 
