@@ -1,8 +1,4 @@
-# William Liang
-# jl5825@Columbia.Edu
-# Programming Assignment 2 - Selective Repeat Protocol
-# CSEE 4119
-# 6/24/21
+
 
 from collections import OrderedDict
 import socket
